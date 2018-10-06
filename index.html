@@ -4,30 +4,41 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>HANGMAN</title>
+    <title>Hangman</title>
+    <link rel="shortcut icon" type="image/jpeg" href="assets/images/favicon.jpeg">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <!--Chronoman google font for the header-->
 
 </head>
 
 <body>
-    <div>
-        <h1 id="directions-text">Press Any Key to get Started!</h1>
+
+
+    <div class="container">
+        <h1 id="directions-text" class="display-2 text-danger bg-dark" style="font-family: 'Charmonman', cursive;">PressAny Key to get Started!</h1>
         <br>
-        <p id="wins-text">Wins: 0</p>
+        <p id="wins-text" class="text-white bg-dark">Wins: 0</p>
+
         <br>
-        <p id="currentword-text">Current Word: </p>
+        <p id="currentword-text" class="text-white bg-dark">Current Word: </p>
         <br>
-        <p id="guessesleft-text">Number of guesses remaining:</p>
+        <p id="guessesleft-text" class="text-white bg-dark">Number of guesses remaining:</p>
         <br>
-        <p id="lettersguessed-text">Letters guessed:</p>
+        <p id="lettersguessed-text" class="text-white bg-dark">Letters guessed:</p>
         <br>
-        <p id="correctword-text"></p>
+        <p id="correctword-text" class="text-primary bg-light"></p>
     </div>
 
 
 
-<script type="text/javascript" src="assets/javascript/game.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 
 </html>
